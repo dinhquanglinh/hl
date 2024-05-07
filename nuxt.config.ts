@@ -1,13 +1,4 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    devtools: { enabled: false },
-    modules: ['@pinia/nuxt'],
-    nitro: {
-        prerender: {
-            autoSubfolderIndex: false,
-        },
-    },
-    experimental: {
-        asyncContext: true,
-    },
+    devtools: { enabled: true },
 });

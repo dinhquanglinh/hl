@@ -1,4 +1,0 @@
-<template>
-    <PageHomeServices />
-    <PageHomeFunction />
-</template>

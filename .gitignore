@@ -5,9 +5,11 @@
 .nitro
 .cache
 dist
-
+yarn.lock
+cache/locale
 # Node dependencies
 node_modules
+
 
 # Logs
 logs
