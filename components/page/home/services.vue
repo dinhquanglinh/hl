@@ -6,7 +6,7 @@
             <div class="home__services-list d-grid grid-template-columns-4">
                 <div class="home__services-item d-flex flex-column">
                     <div class="home__services-item-box-item d-flex align-items-center justify-content-center bgr-main">
-                        <NuxtImg class="home__services-item-icon" src="icon/demo.svg" />
+                        <img class="home__services-item-icon" src="/icon/demo.svg" />
                     </div>
                     <div class="home__services-item-content">
                         <CommonTitle label="AI Powered Assistant" />
@@ -15,7 +15,7 @@
                 </div>
                 <div class="home__services-item d-flex flex-column">
                     <div class="home__services-item-box-item d-flex align-items-center justify-content-center bgr-main">
-                        <NuxtImg class="home__services-item-icon" src="icon/demo.svg" />
+                        <img class="home__services-item-icon" src="/icon/demo.svg" />
                     </div>
                     <div class="home__services-item-content">
                         <CommonTitle label="AI Powered Assistant" />
@@ -24,7 +24,7 @@
                 </div>
                 <div class="home__services-item d-flex flex-column">
                     <div class="home__services-item-box-item d-flex align-items-center justify-content-center bgr-main">
-                        <NuxtImg class="home__services-item-icon" src="icon/demo.svg" />
+                        <img class="home__services-item-icon" src="/icon/demo.svg" />
                     </div>
                     <div class="home__services-item-content">
                         <CommonTitle label="AI Powered Assistant" />
@@ -33,7 +33,7 @@
                 </div>
                 <div class="home__services-item d-flex flex-column">
                     <div class="home__services-item-box-item d-flex align-items-center justify-content-center bgr-main">
-                        <NuxtImg class="home__services-item-icon" src="icon/demo.svg" />
+                        <img class="home__services-item-icon" src="/icon/demo.svg" />
                     </div>
                     <div class="home__services-item-content">
                         <CommonTitle label="AI Powered Assistant" />
@@ -42,7 +42,7 @@
                 </div>
                 <div class="home__services-item d-flex flex-column">
                     <div class="home__services-item-box-item d-flex align-items-center justify-content-center bgr-main">
-                        <NuxtImg class="home__services-item-icon" src="icon/demo.svg" />
+                        <img class="home__services-item-icon" src="/icon/demo.svg" />
                     </div>
                     <div class="home__services-item-content">
                         <CommonTitle label="AI Powered Assistant" />
@@ -51,7 +51,7 @@
                 </div>
                 <div class="home__services-item d-flex flex-column">
                     <div class="home__services-item-box-item d-flex align-items-center justify-content-center bgr-main">
-                        <NuxtImg class="home__services-item-icon" src="icon/demo.svg" />
+                        <img class="home__services-item-icon" src="/icon/demo.svg" />
                     </div>
                     <div class="home__services-item-content">
                         <CommonTitle label="AI Powered Assistant" />
@@ -60,7 +60,7 @@
                 </div>
                 <div class="home__services-item d-flex flex-column">
                     <div class="home__services-item-box-item d-flex align-items-center justify-content-center bgr-main">
-                        <NuxtImg class="home__services-item-icon" src="icon/demo.svg" />
+                        <img class="home__services-item-icon" src="/icon/demo.svg" />
                     </div>
                     <div class="home__services-item-content">
                         <CommonTitle label="AI Powered Assistant" />
@@ -69,7 +69,7 @@
                 </div>
                 <div class="home__services-item d-flex flex-column">
                     <div class="home__services-item-box-item d-flex align-items-center justify-content-center bgr-main">
-                        <NuxtImg class="home__services-item-icon" src="icon/demo.svg" />
+                        <img class="home__services-item-icon" src="/icon/demo.svg" />
                     </div>
                     <div class="home__services-item-content">
                         <CommonTitle label="AI Powered Assistant" />

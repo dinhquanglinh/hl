@@ -3,7 +3,7 @@
 <template>
     <header id="site__header" class="d-flex flex-column align-items-center justify-content-center">
         <div class="site__header__container d-flex align-items-center justify-content-between">
-            <NuxtImg src="/logo-new.png" width="100" />
+            <img src="/logo-new.png" width="100" />
             <div class="flex">
                 <nav id="site__nav">
                     <ul id="menu__site" class="d-flex align-items-center justify-content-center gap-header">
@@ -25,7 +25,7 @@
         </div>
         <LayoutPartialsBanner />
         <LayoutPartialsBottomBanner />
-        <NuxtImg class="site__header-linearGradient" src="banner/linearGradient.svg" />
+        <img class="site__header-linearGradient" src="/banner/linearGradient.svg" />
     </header>
 </template>
 
