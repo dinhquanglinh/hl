@@ -1,5 +1,6 @@
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+    <div>
+        <NuxtWelcome />
+        32132222
+    </div>
 </template>
