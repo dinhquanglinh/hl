@@ -1,0 +1,40 @@
+#site__header {
+    position: relative;
+    .site__header__container {
+        max-width: var(--header__width);
+        width: 100%;
+        padding: 14px 0;
+    }
+
+    .menu__site-item-text {
+        padding: 4px 0;
+        position: relative;
+        &::before {
+            position: absolute;
+            content: '';
+            width: 0;
+            height: 4px;
+            background: var(--color__active);
+            left: 0;
+            bottom: 0;
+            transition: all 0.3s;
+            opacity: 0;
+        }
+
+        &.router-link-exact-active,
+        &:hover::before {
+            opacity: 1;
+            width: 100%;
+        }
+    }
+
+    .site__header-linearGradient {
+        width: 500px;
+        aspect-ratio: 1;
+        position: absolute;
+        left: 10%;
+        filter: blur(300px);
+        isolation: isolate;
+        pointer-events: none;
+    }
+}

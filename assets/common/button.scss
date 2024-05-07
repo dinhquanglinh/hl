@@ -1,0 +1,8 @@
+.btn {
+    height: 50px;
+    padding: 22px;
+    &.default {
+        background-color: var(--bgr-default);
+        color: var(--color__default);
+    }
+}

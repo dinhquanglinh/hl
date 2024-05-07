@@ -1,0 +1,11 @@
+.radius {
+    border-radius: var(--radius-main);
+}
+
+.radius-2x {
+    border-radius: calc(var(--radius-main) * 2);
+}
+
+.radius-3x {
+    border-radius: calc(var(--radius-main) * 3);
+}

@@ -1,0 +1,28 @@
+@import url('@/assets/utilities/flex.scss');
+@import url('@/assets/utilities/gird.scss');
+@import url('@/assets/utilities/width.scss');
+@import url('@/assets/utilities/bgr.scss');
+@import url('@/assets/utilities/radius.scss');
+@import url('@/assets/utilities/text.scss');
+
+// main
+.position-relative {
+    position: relative;
+}
+
+.distance-main-pd-top {
+    padding-top: var(--distance-main);
+}
+
+.d-none {
+    display: none !important;
+}
+
+.d-block {
+    display: block;
+}
+
+// gap
+.gap-header {
+    gap: var(--header__gap);
+}

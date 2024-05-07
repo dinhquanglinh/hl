@@ -1,0 +1,13 @@
+<svg class="w-full h-full" width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+<circle cx="32.5" cy="32.5" r="32.5" fill="url(#paint_7a83347)"></circle>
+<defs>
+<linearGradient id="paint_7a83347" x1="0" y1="0" x2="65" y2="65" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#f8f7a1">
+<animate attributeName="stop-color" values="#f8f7a1;#b185fe;#53fd87;#f8f7a1;" dur="4.25s" repeatCount="indefinite"></animate>
+</stop>
+<stop offset="1" stop-color="#ff9c00">
+<animate attributeName="stop-color" values="#ff9c00;#6ed5fb;#ff7274;#ff9c00;" dur="4.25s" repeatCount="indefinite"></animate>
+</stop>
+</linearGradient>
+</defs>
+</svg>

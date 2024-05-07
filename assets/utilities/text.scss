@@ -1,0 +1,83 @@
+@mixin font-weight($weight) {
+    font-weight: $weight;
+}
+
+.font-weight-100 {
+    @include font-weight(100);
+}
+
+.font-weight-200 {
+    @include font-weight(200);
+}
+
+.font-weight-300 {
+    @include font-weight(300);
+}
+
+.font-weight-400 {
+    @include font-weight(400);
+}
+
+.font-weight-500 {
+    @include font-weight(500);
+}
+
+.font-weight-600 {
+    @include font-weight(600);
+}
+
+.font-weight-700 {
+    @include font-weight(700);
+}
+
+.font-weight-800 {
+    @include font-weight(800);
+}
+
+.font-weight-900 {
+    @include font-weight(900);
+}
+
+.font-weight-bold {
+    @include font-weight(bold);
+}
+
+@mixin font-size($size) {
+    font-size: calc(var(--font__size) * $size);
+}
+
+.font-size {
+    @include font-size(1);
+}
+
+.font-size-2x {
+    @include font-size(2);
+}
+
+.font-size-3x {
+    @include font-size(3);
+}
+
+.text-transform-capitalize {
+    text-transform: capitalize;
+}
+
+.text-transform-uppercase {
+    text-transform: uppercase;
+}
+
+.text-transform-lowercase {
+    text-transform: lowercase;
+}
+
+.color-main {
+    color: var(--color__main);
+}
+
+.color-default {
+    color: var(--color__default);
+}
+
+.color-active {
+    color: var(--color__active);
+}

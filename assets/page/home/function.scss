@@ -1,0 +1,34 @@
+#home__function {
+    position: relative;
+
+    .home__function-list {
+        gap: 60px 30px;
+    }
+
+    .home__function-item {
+        position: relative;
+        row-gap: 20px;
+        cursor: pointer;
+        p {
+            color: var(--color__description);
+        }
+
+        &:hover {
+            .home__function-item-box-item {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .home__function-item-box-item {
+        width: 44px;
+        aspect-ratio: 1;
+        border-radius: 100%;
+        transition: 0.65s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .home__function-item-icon {
+        width: 20px;
+        filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(20deg) brightness(103%) contrast(101%);
+    }
+}

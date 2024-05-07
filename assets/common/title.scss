@@ -1,0 +1,11 @@
+.title__common {
+    font-size: calc(var(--font__size) + 4px);
+    margin-bottom: 8px;
+    &.default {
+        color: var(--color__default);
+    }
+
+    &.primary {
+        color: var(--color__primary);
+    }
+}
